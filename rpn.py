@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 
 import operator
@@ -7,6 +8,7 @@ OPERATORS = {
 	'-': operator.sub,
 	'*': operator.mul,
 	'/': operator.truediv,
+	'^': operator.pow,
 }
 
 
